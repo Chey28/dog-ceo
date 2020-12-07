@@ -1,0 +1,129 @@
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+ @keyframes shadow-text {
+    
+     100%{
+        box-shadow: 5px 10px #EDF5E1;
+     }
+ } 
+
+body{
+
+    font-family: 'Ranchers', cursive;
+    background-color: #5CDB95;
+    
+}
+
+h1{
+    background-color: #05386B;
+    width: 300px;
+    color: #EDF5E1;
+    border-radius: 1.5rem;
+    padding: 10px;
+    text-align: center; 
+
+}
+select{
+    display: block;
+margin: 0 auto;
+text-align: center !important;
+    margin-top: 0px;
+    margin-bottom: 10px; 
+    width: 200px;
+    border-radius: 1.5rem;
+    height: 40px;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+
+
+}
+option{
+    display: block;
+margin: 0 auto;
+text-align: center !important;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 2px;
+    
+}
+
+
+.rotate {
+    animation: rotation 3s ease-in-out infinite;
+    z-index: 10px;
+    margin-left: 50%;
+    margin-top: 10px;
+  }
+
+.header{
+    padding: 0px !important;
+    margin: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5CDB95;
+    
+}
+label{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+hr {
+    background-color: #EDF5E1;
+    width: 90%;
+    padding: 0;
+    height: 10px;
+    border: 0;
+    border-radius: 1.2rem;
+    box-shadow: 0 10px 10px -10px #8c8c8c inset;
+  }
+
+button{
+    
+    width: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 40px;
+    background-color: rgb(27, 27, 27);
+    color: #EDF5E1;
+    border: 1px solid #000000;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Ranchers', cursive;
+    box-shadow: 0 1px 2px #EDF5E1;
+    transition: box-shadow 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+button:hover{
+
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+}
+
+.doggo-section{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 30px;
+}
+
+.doggo-section>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+}
+

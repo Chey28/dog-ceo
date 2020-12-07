@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./doggo.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Ranchers&display=swap" rel="stylesheet">
+    <title>Doggo</title>
+  </head>
+  <body>
+
+    <div class="header">
+      <!-- <img src="./dog--v2.png" alt="" height="40px" width="50px"> -->
+      <h1>&nbsp;T h e &nbsp; D o g &nbsp;  C o l l e c t i o n </h1>
+      
+      <label for="doggo">S e l e c t &nbsp;&nbsp;a&nbsp;&nbsp; b r e e d:</label>
+      <select
+        class="breeds custom-select"
+        id="doggo"
+        name="doggo"
+
+      >
+        <option value="Random" disabled>------</option>
+      </select>
+      <button class="refreshDoggo">Fetch</button>
+    </div>
+
+    <hr />
+    <img class="rotate" style="align-items: baseline; margin:0 50% 0 50%;"src="./dog (1).png" alt="" height="50px" />
+    <section class="doggo-section">
+      <img
+        src="https://images.dog.ceo/breeds/cattledog-australian/IMG_5177.jpg"
+        class="doggoImg"
+        alt=""
+        width="400px"
+        height="400px"
+      />
+    </section>
+    <script>
+      document.querySelector(".rotate").style.visibility = "hidden";
+    </script>
+    <script src="./doggo.js"></script>
+  </body>
+</html>
